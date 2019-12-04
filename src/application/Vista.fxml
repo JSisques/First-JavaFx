@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BlurController">
+   <children>
+      <Pane fx:id="pane" prefHeight="166.0" prefWidth="500.0" styleClass="fondo" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox layoutX="314.0" layoutY="351.0" prefHeight="49.0" prefWidth="180.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+         	<Button fx:id="blur" mnemonicParsing="false" onAction="#setblur" style="-fx-background-radius: 5;" text="Blur" />
+            <Button fx:id="focus" mnemonicParsing="false" onAction="#setFocus" style="-fx-border-width: 5; -fx-background-radius: 5;" text="Focus" />
+            <Button fx:id="close" mnemonicParsing="false" onAction="#handleClose" style="-fx-background-color: skyblue; -fx-background-radius: 5;" text="Close" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
