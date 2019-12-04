@@ -1,2 +1,2 @@
-# JFX-Login
-![foto](https://github.com/JSisques/JFX-Login/blob/homePage/screenshot.png)
+# First-JavaFx
+![foto](https://github.com/JSisques/First-JavaFx/blob/master/blur.png)
