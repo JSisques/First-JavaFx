@@ -6,7 +6,14 @@ import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
-
+/**
+ * 
+ * @author javi
+ * @version 1.0
+ * 
+ * Programa que genera un desenfoque en una imagen y mediante un boton lo quita y lo pone
+ *
+ */
 
 public class Main extends Application {
 	@Override
